@@ -18,7 +18,7 @@ if __name__ == "__main__":
 		xml += dict2xml(itemDict)
 		count += 1
 		item = f.readline()
-		if count > 100:
+		if count > 1000:
 			break
 	xml += "</root>"
 
